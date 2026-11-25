@@ -4,11 +4,11 @@
 
  Assignment about Git and GitHub for a BT4BR class.
 
-**## What is Git**
+## What is Git
 
 Git is a version-control tool that tracks changes made to the files and directories in a project.
 
-**## Why is Git useful**
+## Why is Git useful
 
 Git helps us:
 - Track changes made to files.
@@ -16,7 +16,7 @@ Git helps us:
 - Work on different versions using branches.
 - Collaborate with other people.
 
-**##How does Git work**
+##How does Git work
 
 Git saves snapshots of the project when we create commits. Each commit represents a saved version of our work.
 
@@ -26,7 +26,7 @@ This makes it possible to:
 - Create branches to work on different ideas.
 - Combine changes from different branches.
 
-**##First time using Git**
+##First time using Git
 
 Before using Git, we should configure our username and email address. This information is connected to our commits.
 
@@ -40,7 +40,7 @@ To check the configuration:
 git config --list
 ```
 
-**##Creating repository on Github**
+##Creating repository on Github
 
 To create a new repository:
 
@@ -54,7 +54,7 @@ To create a new repository:
 
 A repository is a place where project files and their version history are stored.
 
-**## Connecting Your Computer to GitHub Using SSH**
+## Connecting Your Computer to GitHub Using SSH
 
 SSH keys allow us to connect to GitHub securely.
 
@@ -84,7 +84,7 @@ Copy the public key and add it to GitHub:
 4. Paste your public key.
 5. Save the changes.
 
-**## Creating a Local Copy of a Repository**
+## Creating a Local Copy of a Repository
 
 To download an existing repository from GitHub to your computer, use `git clone`.
 
@@ -100,7 +100,7 @@ After cloning, enter the repository folder:
 cd repository-name
 ```
 
-**## Adding Files to a Repository**
+## Adding Files to a Repository
 
 After creating or editing files, we can add them to the staging area.
 
@@ -124,7 +124,7 @@ git add .
 
 The staging area allows us to choose which changes will be included in the next commit.
 
-**## Committing Changes**
+## Committing Changes
 
 A commit saves the staged changes as a new version in the Git history.
 
@@ -142,7 +142,7 @@ For example:
 git commit -m "Add information about Git commands"
 ```
 
-**## Pushing Changes to GitHub**
+## Pushing Changes to GitHub
 
 The `git push` command sends local commits to the remote repository on GitHub.
 
@@ -152,7 +152,7 @@ git push
 
 This allows us to update the online repository with our latest changes.
 
-**## Branching and Merging**
+## Branching and Merging
 
 A branch is a separate line of development. It allows us to work on a new feature or idea without changing the main version of the project immediately.
 
@@ -183,7 +183,7 @@ git checkout main
 git merge new-branch
 ```
 
-**## Restoring Previous Versions**
+## Restoring Previous Versions
 
 Git allows us to recover earlier versions of files or undo unwanted changes.
 
@@ -198,7 +198,7 @@ The `git show` command displays information about a commit, including the change
 
 It is important to understand what changes we want to undo before restoring files, because some operations can overwrite current work.
 
-**##Pulling changes from GitHub**
+##Pulling changes from GitHub
 
 he `git pull` command downloads changes from a remote repository and integrates them into the current local branch.
 
@@ -214,7 +214,7 @@ git fetch
 
 **The main difference:** `git pull` also integrates the downloaded changes, while `git fetch` only retrieves them.
 
-**## Basic Git commands**
+## Basic Git commands
 
 | Command | Description |
 |---|---|
@@ -231,7 +231,7 @@ git fetch
 | `git fetch` | Downloads information about remote changes. |
 | `git show` | Displays information about a commit. |
 
-**## Basic Bash commands**
+## Basic Bash commands
 
 Bash commands are useful when working with files and directories in the Terminal.
 
@@ -244,7 +244,7 @@ Bash commands are useful when working with files and directories in the Terminal
 | `ls` | Lists files and directories. |
 | `pwd` | Displays the current directory. |
 
-**## Markdown Formatting Cheat Sheet**
+## Markdown Formatting Cheat Sheet
 
 Markdown is a simple language used to format text in files such as README.md. GitHub automatically displays Markdown formatting when we open a README file.
 
@@ -338,7 +338,7 @@ To create a horizontal line, use three hyphens:
 
 ---
 
-**## Useful Resources**
+## Useful Resources
 
 - [GitHub – Basic Writing and Formatting Syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf)
@@ -348,7 +348,7 @@ To create a horizontal line, use three hyphens:
 
 These resources provide additional information about Git, GitHub, version control and Markdown.
 
-**## Dosclaimer**
+## Disclaimer
 
 The information about Git, GitHub and Markdown in this README was prepared with the help of AI and other sources, such as GitHub documentation and other GitHub repositories.
 
