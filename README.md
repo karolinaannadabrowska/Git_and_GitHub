@@ -198,9 +198,9 @@ The `git show` command displays information about a commit, including the change
 
 It is important to understand what changes we want to undo before restoring files, because some operations can overwrite current work.
 
-##Pulling changes from GitHub
+## Pulling changes from GitHub
 
-he `git pull` command downloads changes from a remote repository and integrates them into the current local branch.
+The `git pull` command downloads changes from a remote repository and integrates them into the current local branch.
 
 ```bash
 git pull
