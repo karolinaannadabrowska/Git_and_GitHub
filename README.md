@@ -16,7 +16,7 @@ Git helps us:
 - Work on different versions using branches.
 - Collaborate with other people.
 
-##How does Git work
+## How does Git work
 
 Git saves snapshots of the project when we create commits. Each commit represents a saved version of our work.
 
@@ -26,7 +26,7 @@ This makes it possible to:
 - Create branches to work on different ideas.
 - Combine changes from different branches.
 
-##First time using Git
+## First time using Git
 
 Before using Git, we should configure our username and email address. This information is connected to our commits.
 
@@ -40,7 +40,7 @@ To check the configuration:
 git config --list
 ```
 
-##Creating repository on Github
+## Creating repository on Github
 
 To create a new repository:
 
